@@ -10,6 +10,7 @@
 \begin{document}
 
 	\maketitle
+  \thispagestyle{empty}
 
 %-----------------------------
 %	TEXT
@@ -23,12 +24,31 @@
     La \emph{encuesta panel} consiste en un tipo de muestreo estadístico basado en la recolección de mediciones siguiendo una determinada línea temporal. De esta manera se obtiene un histórico acerca de la variación del objeto sobre el que se está realizando el experimento respecto del tiempo.
 
     \paragraph{}
+    El uso de \emph{encuestas panel} implica distintas características diferenciadoras respecto de otros tipos de encuestas, tanto por las ventajas que se obtienen a nivel de análisis estadístico (convirtiendo las observaciones en series temporales), como las dificulates en el sentido del proceso de experimentación.
+
+    \paragraph{}
     Existen dos tipos de encuestas panel, cuando todas las mediciones se hacen siguiendo un determinado patrón temporal entonces se dice que estás son \emph{balanceadas}, mientras que cuando no se sigue un patrón prefijado se habla de \emph{no balanceadas}.
 
+  \section{Ejemplos}
+  \label{sec:examples}
+
+    \paragraph{}
+    Algunos ejemplos destacados de este tipo de encuestas son los siguientes:
+
+    \begin{itemize}
+
+      \item Tras realizar un servicio de mantenimiento rutinario de vehiculos, algunas marcas de coches, realizan una encuesta a los propietarios para conocer qué les ha parecido dicho servicio. De esta manera se obtiene una observación periódica del mismo individuo, la cual puede haber variado debido a las incidencias respecto de la anterior.
+
+      \item Algunos servicios de internet como redes sociales u otras plataformas realizan pequeñas encuestas sobre la calidad del servicio a sus usuarios de manera periodica para conocer la opinión de estos sobre el funcionamiento de su servicio. Estas ayudan a los desarrolladores a tratar de predecir aquellas mejoras que más satisfacen la experiencia de uso de sus usuarios.
+
+    \end{itemize}
 %-----------------------------
 %	Bibliographic references
 %-----------------------------
 	\nocite{muest2016}
+  \nocite{wiki:Panel_data}
+  \nocite{wiki:Panel_analysis}
+  \nocite{de2007tipos}
 
   \bibliographystyle{alpha}
   \bibliography{bib}
